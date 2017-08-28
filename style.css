@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(bckBlur.jpg);
+	background-size: 100%;
+}
+
+p {
+	padding: 20 20 20 20;
+	font-family: "HelveticaNeue-Thin";
+	color: white;
+	font-size: 15px;
+}
+
+h1 {
+	padding: 0 0 0 0;
+	color: white;
+	font-family: "HelveticaNeue-Thin";
+	font-size: 28px;
+	opacity: 1.0;
+	font-weight: 500;
+}
+
+h2 {
+	color: white;
+	font-family: "HelveticaNeue-Thin";
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+.mainPage {
+	margin: 0;
+	padding: 0;
+	background-image: url(indexMainPic.jpg);
+	background-size: 100%;
+}
+
+.logo {
+	position: absolute;
+	top:  20px;
+	left: 50px;
+	width: 80px;
+	height: 80px;
+}
+
+.nav {
+	list-style: none;
+	text-align: right;
+	padding: 25px 0 70px 0px;
+	font-family: "HelveticaNeue-Thin";
+	font-size: 25px;
+	color: white;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 50px 0 0px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.boxBackGround {
+	background-color: black;
+	background: rgba(0, 0, 6, 0.5)
+}
+
+#leftBox {
+	float: left;
+    margin-left: 50px;
+    max-width: 950px;
+    padding: 5px 25px 20px 25px;
+}
+
+#rightBox {
+    margin-left: 1100px;
+    margin-right: 50px;
+    text-align: center;
+    height: 600px; 
+    padding: 5px 5px 5px 5px;
+}
+
+
+#photoImage {
+	float: left;
+	width: 1000px;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: -300px;
+}
+
+#trackOld {
+	float: left;
+	margin-left: 50px;
+	padding-left: 50px; 
+	width: 950px;
+	height: 600px;
+	padding-top: 5px;
+}
+
+#trackNew {
+	list-style-type:none;
+	margin-left: 1100px;
+	margin-right: 50px;
+	height: 600px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.listFormat {
+	list-style: none;
+	font-family: "HelveticaNeue-Thin";
+	color: white;
+	font-size: 15px;
+	text-align: left;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.contact {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	padding: 30px 60px 30px 60px;
+}
+
+.ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#video {
+	float: left;
+	width: 950px;
+	height: 605px;
+	padding-left: 50px; 
+	border-radius: 0px;
+}
+
+#fb {
+	max-width: 20px;
+	max-height: 20px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 520px;
+	background-color: black;
+}
+
+#contactText {
+	margin-left: 50px;
+	margin-right: 50px;
+	max-width: 1500px;
+	max-height: 400px;
+}
