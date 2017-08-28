@@ -3,29 +3,30 @@ body {
 	padding: 0;
 	background-image: url(bckBlur.jpg);
 	background-size: 100%;
+	font-family: "HelveticaNeue-Thin";
+	color: white;
 }
 
 p {
 	padding: 20 20 20 20;
-	font-family: "HelveticaNeue-Thin";
-	color: white;
 	font-size: 15px;
 }
 
 h1 {
 	padding: 0 0 0 0;
-	color: white;
-	font-family: "HelveticaNeue-Thin";
 	font-size: 28px;
 	opacity: 1.0;
 	font-weight: 500;
 }
 
 h2 {
-	color: white;
-	font-family: "HelveticaNeue-Thin";
 	font-size: 20px;
 	font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .mainPage {
@@ -47,9 +48,7 @@ h2 {
 	list-style: none;
 	text-align: right;
 	padding: 25px 0 70px 0px;
-	font-family: "HelveticaNeue-Thin";
 	font-size: 25px;
-	color: white;
 }
 
 .nav > li {
@@ -111,16 +110,9 @@ h2 {
 
 .listFormat {
 	list-style: none;
-	font-family: "HelveticaNeue-Thin";
-	color: white;
 	font-size: 15px;
 	text-align: left;
 	line-height: 25px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .contact {
