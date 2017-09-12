@@ -1,9 +1,14 @@
+@font-face {
+    font-family: Akrobat;
+    src: url("../fonts/Akrobat-ExtraLight.otf");
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	background-image: url(bckBlur.jpg);
 	background-size: 100%;
-	font-family: "HelveticaNeue-Thin";
+	font-family: "Akrobat";
 	color: white;
 }
 
@@ -132,8 +137,4 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.records {
-    padding-bottom: 100%;
 }
