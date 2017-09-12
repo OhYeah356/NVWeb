@@ -68,19 +68,18 @@ a {
 
 #leftBox {
     float: left;
-    width: 70%;
+    width: 65%;
     float: left;
-    margin-left: 50px;
-    padding: 5px 25px 0px 25px;
+    margin-left: 5%;
+    padding: 5px 25px 3% 25px;
 }
 
 #rightBox {
     width: 15%;
     float: right;
     text-align: center;
-    height: 695px;
-    margin-right: 50px;
-    padding: 5px 5px 5px 5px;
+    margin-right: 5%;
+    padding: 5px 5px 20% 5px;
 }
 
 
@@ -119,10 +118,6 @@ a {
 	border-radius: 0px;
 }
 
-.playlist {
-    height: 700px;
-}
-
 .fb {
 	position: absolute;
 	right: 50px;
@@ -137,4 +132,8 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.records {
+    padding-bottom: 100%;
 }
